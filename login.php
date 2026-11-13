@@ -18,9 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 <!DOCTYPE html>
-<html><head><title>Login</title><link rel="stylesheet" href="style.css"></head>
+<html><head><title>Login - version 2</title><link rel="stylesheet" href="style.css"></head>
 <body><div class="box">
-<h2>Log in</h2>
+<h2>Log in - version 2</h2>
 <form method="POST">
   Username <input type="text" name="username" required>
   Password <input type="password" name="password" required>

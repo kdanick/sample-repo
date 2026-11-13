@@ -1,0 +1,12 @@
+name: serverless-demo
+on: push
+jobs:
+  run-on-demand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          echo "Running on a runner I did not provision"
+          uname -a
+          cat /etc/os-release
+          date
